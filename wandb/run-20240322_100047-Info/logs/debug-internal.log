@@ -1,0 +1,227 @@
+2024-03-22 10:00:55,316 INFO    StreamThr :109895 [internal.py:wandb_internal():86] W&B internal server running at pid: 109895, started at: 2024-03-22 10:00:55.310796
+2024-03-22 10:00:55,319 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: status
+2024-03-22 10:00:55,389 INFO    WriterThread:109895 [datastore.py:open_for_write():87] open: /mnt/d/WSL/Flight-Fare-Prediction/wandb/run-20240322_100047-Info/run-Info.wandb
+2024-03-22 10:00:55,391 DEBUG   SenderThread:109895 [sender.py:send():382] send: header
+2024-03-22 10:00:55,445 DEBUG   SenderThread:109895 [sender.py:send():382] send: run
+2024-03-22 10:00:57,790 INFO    SenderThread:109895 [dir_watcher.py:__init__():211] watching files in: /mnt/d/WSL/Flight-Fare-Prediction/wandb/run-20240322_100047-Info/files
+2024-03-22 10:00:57,790 INFO    SenderThread:109895 [sender.py:_start_run_threads():1136] run started: Info with start time 1711081855.313785
+2024-03-22 10:00:57,804 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: check_version
+2024-03-22 10:00:57,804 DEBUG   SenderThread:109895 [sender.py:send_request():409] send_request: check_version
+2024-03-22 10:00:58,728 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: run_start
+2024-03-22 10:00:58,730 DEBUG   HandlerThread:109895 [system_info.py:__init__():27] System info init
+2024-03-22 10:00:58,730 DEBUG   HandlerThread:109895 [system_info.py:__init__():42] System info init done
+2024-03-22 10:00:58,730 INFO    HandlerThread:109895 [system_monitor.py:start():194] Starting system monitor
+2024-03-22 10:00:58,731 INFO    SystemMonitor:109895 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-22 10:00:58,731 INFO    HandlerThread:109895 [system_monitor.py:probe():214] Collecting system info
+2024-03-22 10:00:58,732 INFO    SystemMonitor:109895 [interfaces.py:start():190] Started cpu monitoring
+2024-03-22 10:00:58,733 INFO    SystemMonitor:109895 [interfaces.py:start():190] Started disk monitoring
+2024-03-22 10:00:58,734 INFO    SystemMonitor:109895 [interfaces.py:start():190] Started gpu monitoring
+2024-03-22 10:00:58,735 INFO    SystemMonitor:109895 [interfaces.py:start():190] Started memory monitoring
+2024-03-22 10:00:58,736 INFO    SystemMonitor:109895 [interfaces.py:start():190] Started network monitoring
+2024-03-22 10:00:58,741 DEBUG   HandlerThread:109895 [system_info.py:probe():151] Probing system
+2024-03-22 10:00:58,750 DEBUG   HandlerThread:109895 [system_info.py:_probe_git():136] Probing git
+2024-03-22 10:00:58,802 DEBUG   HandlerThread:109895 [system_info.py:_probe_git():144] Probing git done
+2024-03-22 10:00:58,803 DEBUG   HandlerThread:109895 [system_info.py:probe():199] Probing system done
+2024-03-22 10:00:58,803 DEBUG   HandlerThread:109895 [system_monitor.py:probe():223] {'os': 'Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.11.5', 'heartbeatAt': '2024-03-22T04:30:58.741943', 'startedAt': '2024-03-22T04:30:47.526245', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/souvikghosh2000/Flight-Fare-Prediction.git', 'commit': '38d17acd4cac750cbe17989cfa6302cc08ab90b8'}, 'email': '“ghsouvik2000@gmail.com”', 'root': '/mnt/d/WSL/Flight-Fare-Prediction', 'host': 'LAPTOP-UGUDUH62', 'username': 'souvik', 'executable': '/home/souvik/miniconda3/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 3293.732, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 3293.732, 'min': 0.0, 'max': 0.0}, {'current': 3293.732, 'min': 0.0, 'max': 0.0}, {'current': 3293.732, 'min': 0.0, 'max': 0.0}, {'current': 3293.732, 'min': 0.0, 'max': 0.0}, {'current': 3293.732, 'min': 0.0, 'max': 0.0}, {'current': 3293.732, 'min': 0.0, 'max': 0.0}, {'current': 3293.732, 'min': 0.0, 'max': 0.0}, {'current': 3293.732, 'min': 0.0, 'max': 0.0}, {'current': 3293.732, 'min': 0.0, 'max': 0.0}, {'current': 3293.732, 'min': 0.0, 'max': 0.0}, {'current': 3293.732, 'min': 0.0, 'max': 0.0}, {'current': 3293.732, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 1006.853931427002, 'used': 16.258670806884766}}, 'gpu': 'NVIDIA GeForce RTX 3050 Ti Laptop GPU', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3050 Ti Laptop GPU', 'memory_total': 4294967296}], 'memory': {'total': 3.5644454956054688}}
+2024-03-22 10:00:58,803 INFO    HandlerThread:109895 [system_monitor.py:probe():224] Finished collecting system info
+2024-03-22 10:00:58,804 INFO    HandlerThread:109895 [system_monitor.py:probe():227] Publishing system info
+2024-03-22 10:00:58,804 DEBUG   HandlerThread:109895 [system_info.py:_save_conda():208] Saving list of conda packages installed into the current environment
+2024-03-22 10:00:59,799 INFO    Thread-38 :109895 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/d/WSL/Flight-Fare-Prediction/wandb/run-20240322_100047-Info/files/conda-environment.yaml
+2024-03-22 10:01:05,126 DEBUG   HandlerThread:109895 [system_info.py:_save_conda():220] Saving conda packages done
+2024-03-22 10:01:05,128 INFO    HandlerThread:109895 [system_monitor.py:probe():229] Finished publishing system info
+2024-03-22 10:01:05,129 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 10:01:05,130 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: keepalive
+2024-03-22 10:01:05,131 DEBUG   SenderThread:109895 [sender.py:send():382] send: files
+2024-03-22 10:01:05,131 INFO    SenderThread:109895 [sender.py:_save_file():1403] saving file wandb-metadata.json with policy now
+2024-03-22 10:01:05,155 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: python_packages
+2024-03-22 10:01:05,156 DEBUG   SenderThread:109895 [sender.py:send_request():409] send_request: python_packages
+2024-03-22 10:01:05,157 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 10:01:05,158 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 10:01:05,161 DEBUG   SenderThread:109895 [sender.py:send_request():409] send_request: stop_status
+2024-03-22 10:01:05,255 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: partial_history
+2024-03-22 10:01:05,257 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: pause
+2024-03-22 10:01:05,257 INFO    HandlerThread:109895 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-03-22 10:01:05,257 INFO    HandlerThread:109895 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-22 10:01:05,257 DEBUG   SystemMonitor:109895 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-22 10:01:05,258 DEBUG   SystemMonitor:109895 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-22 10:01:05,258 INFO    HandlerThread:109895 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-22 10:01:05,259 DEBUG   SystemMonitor:109895 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-22 10:01:05,259 INFO    HandlerThread:109895 [interfaces.py:finish():202] Joined disk monitor
+2024-03-22 10:01:05,268 INFO    HandlerThread:109895 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-22 10:01:05,269 INFO    HandlerThread:109895 [interfaces.py:finish():202] Joined memory monitor
+2024-03-22 10:01:05,269 INFO    HandlerThread:109895 [interfaces.py:finish():202] Joined network monitor
+2024-03-22 10:01:05,812 INFO    Thread-38 :109895 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/d/WSL/Flight-Fare-Prediction/wandb/run-20240322_100047-Info/files/conda-environment.yaml
+2024-03-22 10:01:05,813 INFO    Thread-38 :109895 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/d/WSL/Flight-Fare-Prediction/wandb/run-20240322_100047-Info/files/requirements.txt
+2024-03-22 10:01:05,814 INFO    Thread-38 :109895 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/d/WSL/Flight-Fare-Prediction/wandb/run-20240322_100047-Info/files/wandb-metadata.json
+2024-03-22 10:01:06,839 DEBUG   SenderThread:109895 [sender.py:send():382] send: telemetry
+2024-03-22 10:01:06,839 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 10:01:06,843 DEBUG   SenderThread:109895 [sender.py:send():382] send: history
+2024-03-22 10:01:06,843 DEBUG   SenderThread:109895 [sender.py:send_request():409] send_request: summary_record
+2024-03-22 10:01:06,846 INFO    SenderThread:109895 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-22 10:01:06,847 DEBUG   SenderThread:109895 [sender.py:send():382] send: stats
+2024-03-22 10:01:07,682 INFO    wandb-upload_0:109895 [upload_job.py:push():131] Uploaded file /tmp/tmpab20yt_zwandb/pv0wxzqg-wandb-metadata.json
+2024-03-22 10:01:07,824 INFO    Thread-38 :109895 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/d/WSL/Flight-Fare-Prediction/wandb/run-20240322_100047-Info/files/output.log
+2024-03-22 10:01:07,824 INFO    Thread-38 :109895 [dir_watcher.py:_on_file_created():271] file/dir created: /mnt/d/WSL/Flight-Fare-Prediction/wandb/run-20240322_100047-Info/files/wandb-summary.json
+2024-03-22 10:01:09,833 INFO    Thread-38 :109895 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/d/WSL/Flight-Fare-Prediction/wandb/run-20240322_100047-Info/files/output.log
+2024-03-22 10:01:11,848 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 10:01:16,849 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 10:01:20,156 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 10:01:20,157 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 10:01:20,157 DEBUG   SenderThread:109895 [sender.py:send_request():409] send_request: stop_status
+2024-03-22 10:01:22,539 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 10:01:27,543 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 10:01:29,921 INFO    Thread-38 :109895 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/d/WSL/Flight-Fare-Prediction/wandb/run-20240322_100047-Info/files/config.yaml
+2024-03-22 10:01:34,538 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 10:01:35,156 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: stop_status
+2024-03-22 10:01:35,157 DEBUG   SenderThread:109895 [sender.py:send_request():409] send_request: stop_status
+2024-03-22 10:01:35,202 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 10:01:38,092 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: resume
+2024-03-22 10:01:38,092 INFO    HandlerThread:109895 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-03-22 10:01:38,092 INFO    HandlerThread:109895 [system_monitor.py:start():194] Starting system monitor
+2024-03-22 10:01:38,092 INFO    SystemMonitor:109895 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-03-22 10:01:38,093 INFO    SystemMonitor:109895 [interfaces.py:start():190] Started cpu monitoring
+2024-03-22 10:01:38,095 INFO    SystemMonitor:109895 [interfaces.py:start():190] Started disk monitoring
+2024-03-22 10:01:38,096 INFO    SystemMonitor:109895 [interfaces.py:start():190] Started gpu monitoring
+2024-03-22 10:01:38,097 INFO    SystemMonitor:109895 [interfaces.py:start():190] Started memory monitoring
+2024-03-22 10:01:38,097 INFO    SystemMonitor:109895 [interfaces.py:start():190] Started network monitoring
+2024-03-22 10:01:38,142 DEBUG   SenderThread:109895 [sender.py:send():382] send: telemetry
+2024-03-22 10:01:38,143 DEBUG   SenderThread:109895 [sender.py:send():382] send: exit
+2024-03-22 10:01:38,143 INFO    SenderThread:109895 [sender.py:send_exit():589] handling exit code: 0
+2024-03-22 10:01:38,143 INFO    SenderThread:109895 [sender.py:send_exit():591] handling runtime: 6
+2024-03-22 10:01:38,145 INFO    SenderThread:109895 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-22 10:01:38,147 INFO    SenderThread:109895 [sender.py:send_exit():597] send defer
+2024-03-22 10:01:38,147 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 10:01:38,148 INFO    HandlerThread:109895 [handler.py:handle_request_defer():172] handle defer: 0
+2024-03-22 10:01:38,148 DEBUG   SenderThread:109895 [sender.py:send_request():409] send_request: defer
+2024-03-22 10:01:38,148 INFO    SenderThread:109895 [sender.py:send_request_defer():613] handle sender defer: 0
+2024-03-22 10:01:38,148 INFO    SenderThread:109895 [sender.py:transition_state():617] send defer: 1
+2024-03-22 10:01:38,148 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 10:01:38,149 INFO    HandlerThread:109895 [handler.py:handle_request_defer():172] handle defer: 1
+2024-03-22 10:01:38,149 DEBUG   SenderThread:109895 [sender.py:send_request():409] send_request: defer
+2024-03-22 10:01:38,149 INFO    SenderThread:109895 [sender.py:send_request_defer():613] handle sender defer: 1
+2024-03-22 10:01:38,149 INFO    SenderThread:109895 [sender.py:transition_state():617] send defer: 2
+2024-03-22 10:01:38,150 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 10:01:38,150 INFO    HandlerThread:109895 [handler.py:handle_request_defer():172] handle defer: 2
+2024-03-22 10:01:38,150 INFO    HandlerThread:109895 [system_monitor.py:finish():203] Stopping system monitor
+2024-03-22 10:01:38,151 DEBUG   SystemMonitor:109895 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-03-22 10:01:38,151 INFO    HandlerThread:109895 [interfaces.py:finish():202] Joined cpu monitor
+2024-03-22 10:01:38,151 DEBUG   SystemMonitor:109895 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-03-22 10:01:38,152 INFO    HandlerThread:109895 [interfaces.py:finish():202] Joined disk monitor
+2024-03-22 10:01:38,152 DEBUG   SystemMonitor:109895 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-03-22 10:01:38,164 INFO    HandlerThread:109895 [interfaces.py:finish():202] Joined gpu monitor
+2024-03-22 10:01:38,164 INFO    HandlerThread:109895 [interfaces.py:finish():202] Joined memory monitor
+2024-03-22 10:01:38,164 INFO    HandlerThread:109895 [interfaces.py:finish():202] Joined network monitor
+2024-03-22 10:01:38,165 DEBUG   SenderThread:109895 [sender.py:send_request():409] send_request: defer
+2024-03-22 10:01:38,166 INFO    SenderThread:109895 [sender.py:send_request_defer():613] handle sender defer: 2
+2024-03-22 10:01:38,166 INFO    SenderThread:109895 [sender.py:transition_state():617] send defer: 3
+2024-03-22 10:01:38,166 DEBUG   SenderThread:109895 [sender.py:send():382] send: stats
+2024-03-22 10:01:38,166 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 10:01:38,167 INFO    HandlerThread:109895 [handler.py:handle_request_defer():172] handle defer: 3
+2024-03-22 10:01:38,167 DEBUG   SenderThread:109895 [sender.py:send_request():409] send_request: defer
+2024-03-22 10:01:38,167 INFO    SenderThread:109895 [sender.py:send_request_defer():613] handle sender defer: 3
+2024-03-22 10:01:38,167 INFO    SenderThread:109895 [sender.py:transition_state():617] send defer: 4
+2024-03-22 10:01:38,167 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 10:01:38,167 INFO    HandlerThread:109895 [handler.py:handle_request_defer():172] handle defer: 4
+2024-03-22 10:01:38,168 DEBUG   SenderThread:109895 [sender.py:send_request():409] send_request: defer
+2024-03-22 10:01:38,168 INFO    SenderThread:109895 [sender.py:send_request_defer():613] handle sender defer: 4
+2024-03-22 10:01:38,168 INFO    SenderThread:109895 [sender.py:transition_state():617] send defer: 5
+2024-03-22 10:01:38,169 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 10:01:38,169 INFO    HandlerThread:109895 [handler.py:handle_request_defer():172] handle defer: 5
+2024-03-22 10:01:38,169 DEBUG   SenderThread:109895 [sender.py:send():382] send: summary
+2024-03-22 10:01:38,171 INFO    SenderThread:109895 [sender.py:_save_file():1403] saving file wandb-summary.json with policy end
+2024-03-22 10:01:38,172 DEBUG   SenderThread:109895 [sender.py:send_request():409] send_request: defer
+2024-03-22 10:01:38,172 INFO    SenderThread:109895 [sender.py:send_request_defer():613] handle sender defer: 5
+2024-03-22 10:01:38,172 INFO    SenderThread:109895 [sender.py:transition_state():617] send defer: 6
+2024-03-22 10:01:38,173 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 10:01:38,173 INFO    HandlerThread:109895 [handler.py:handle_request_defer():172] handle defer: 6
+2024-03-22 10:01:38,173 DEBUG   SenderThread:109895 [sender.py:send_request():409] send_request: defer
+2024-03-22 10:01:38,173 INFO    SenderThread:109895 [sender.py:send_request_defer():613] handle sender defer: 6
+2024-03-22 10:01:38,175 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: status_report
+2024-03-22 10:01:38,962 INFO    Thread-38 :109895 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/d/WSL/Flight-Fare-Prediction/wandb/run-20240322_100047-Info/files/wandb-summary.json
+2024-03-22 10:01:39,068 INFO    SenderThread:109895 [sender.py:transition_state():617] send defer: 7
+2024-03-22 10:01:39,068 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 10:01:39,068 INFO    HandlerThread:109895 [handler.py:handle_request_defer():172] handle defer: 7
+2024-03-22 10:01:39,069 DEBUG   SenderThread:109895 [sender.py:send_request():409] send_request: defer
+2024-03-22 10:01:39,069 INFO    SenderThread:109895 [sender.py:send_request_defer():613] handle sender defer: 7
+2024-03-22 10:01:39,128 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-22 10:01:39,967 INFO    Thread-38 :109895 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/d/WSL/Flight-Fare-Prediction/wandb/run-20240322_100047-Info/files/config.yaml
+2024-03-22 10:01:40,852 INFO    SenderThread:109895 [sender.py:transition_state():617] send defer: 8
+2024-03-22 10:01:40,852 DEBUG   SenderThread:109895 [sender.py:send_request():409] send_request: poll_exit
+2024-03-22 10:01:40,853 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 10:01:40,853 INFO    HandlerThread:109895 [handler.py:handle_request_defer():172] handle defer: 8
+2024-03-22 10:01:40,854 DEBUG   SenderThread:109895 [sender.py:send_request():409] send_request: defer
+2024-03-22 10:01:40,855 INFO    SenderThread:109895 [sender.py:send_request_defer():613] handle sender defer: 8
+2024-03-22 10:01:40,855 INFO    SenderThread:109895 [job_builder.py:build():296] Attempting to build job artifact
+2024-03-22 10:01:40,858 INFO    SenderThread:109895 [job_builder.py:_get_source_type():426] is repo sourced job
+2024-03-22 10:01:40,858 INFO    SenderThread:109895 [job_builder.py:_get_program_relpath():444] run is notebook based run
+2024-03-22 10:01:40,859 INFO    SenderThread:109895 [sender.py:transition_state():617] send defer: 9
+2024-03-22 10:01:40,859 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 10:01:40,859 INFO    HandlerThread:109895 [handler.py:handle_request_defer():172] handle defer: 9
+2024-03-22 10:01:40,860 DEBUG   SenderThread:109895 [sender.py:send_request():409] send_request: defer
+2024-03-22 10:01:40,860 INFO    SenderThread:109895 [sender.py:send_request_defer():613] handle sender defer: 9
+2024-03-22 10:01:40,860 INFO    SenderThread:109895 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-03-22 10:01:40,981 INFO    SenderThread:109895 [dir_watcher.py:_on_file_modified():288] file/dir modified: /mnt/d/WSL/Flight-Fare-Prediction/wandb/run-20240322_100047-Info/files/output.log
+2024-03-22 10:01:40,982 INFO    SenderThread:109895 [dir_watcher.py:finish():388] scan: /mnt/d/WSL/Flight-Fare-Prediction/wandb/run-20240322_100047-Info/files
+2024-03-22 10:01:40,983 INFO    SenderThread:109895 [dir_watcher.py:finish():402] scan save: /mnt/d/WSL/Flight-Fare-Prediction/wandb/run-20240322_100047-Info/files/conda-environment.yaml conda-environment.yaml
+2024-03-22 10:01:40,986 INFO    SenderThread:109895 [dir_watcher.py:finish():402] scan save: /mnt/d/WSL/Flight-Fare-Prediction/wandb/run-20240322_100047-Info/files/config.yaml config.yaml
+2024-03-22 10:01:40,991 INFO    SenderThread:109895 [dir_watcher.py:finish():402] scan save: /mnt/d/WSL/Flight-Fare-Prediction/wandb/run-20240322_100047-Info/files/output.log output.log
+2024-03-22 10:01:40,996 INFO    SenderThread:109895 [dir_watcher.py:finish():402] scan save: /mnt/d/WSL/Flight-Fare-Prediction/wandb/run-20240322_100047-Info/files/requirements.txt requirements.txt
+2024-03-22 10:01:41,000 INFO    SenderThread:109895 [dir_watcher.py:finish():402] scan save: /mnt/d/WSL/Flight-Fare-Prediction/wandb/run-20240322_100047-Info/files/wandb-metadata.json wandb-metadata.json
+2024-03-22 10:01:41,001 INFO    SenderThread:109895 [dir_watcher.py:finish():402] scan save: /mnt/d/WSL/Flight-Fare-Prediction/wandb/run-20240322_100047-Info/files/wandb-summary.json wandb-summary.json
+2024-03-22 10:01:41,006 INFO    SenderThread:109895 [sender.py:transition_state():617] send defer: 10
+2024-03-22 10:01:41,006 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 10:01:41,006 INFO    HandlerThread:109895 [handler.py:handle_request_defer():172] handle defer: 10
+2024-03-22 10:01:41,007 DEBUG   SenderThread:109895 [sender.py:send_request():409] send_request: defer
+2024-03-22 10:01:41,007 INFO    SenderThread:109895 [sender.py:send_request_defer():613] handle sender defer: 10
+2024-03-22 10:01:41,008 INFO    SenderThread:109895 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-22 10:01:41,129 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-22 10:01:41,130 DEBUG   SenderThread:109895 [sender.py:send_request():409] send_request: poll_exit
+2024-03-22 10:01:41,941 INFO    wandb-upload_1:109895 [upload_job.py:push():131] Uploaded file /mnt/d/WSL/Flight-Fare-Prediction/wandb/run-20240322_100047-Info/files/config.yaml
+2024-03-22 10:01:42,130 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-22 10:01:42,131 DEBUG   SenderThread:109895 [sender.py:send_request():409] send_request: poll_exit
+2024-03-22 10:01:42,663 INFO    wandb-upload_0:109895 [upload_job.py:push():131] Uploaded file /mnt/d/WSL/Flight-Fare-Prediction/wandb/run-20240322_100047-Info/files/conda-environment.yaml
+2024-03-22 10:01:42,887 INFO    wandb-upload_3:109895 [upload_job.py:push():131] Uploaded file /mnt/d/WSL/Flight-Fare-Prediction/wandb/run-20240322_100047-Info/files/requirements.txt
+2024-03-22 10:01:43,130 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-22 10:01:43,131 DEBUG   SenderThread:109895 [sender.py:send_request():409] send_request: poll_exit
+2024-03-22 10:01:43,553 INFO    wandb-upload_2:109895 [upload_job.py:push():131] Uploaded file /mnt/d/WSL/Flight-Fare-Prediction/wandb/run-20240322_100047-Info/files/output.log
+2024-03-22 10:01:43,554 INFO    wandb-upload_4:109895 [upload_job.py:push():131] Uploaded file /mnt/d/WSL/Flight-Fare-Prediction/wandb/run-20240322_100047-Info/files/wandb-summary.json
+2024-03-22 10:01:43,754 INFO    Thread-37 (_thread_body):109895 [sender.py:transition_state():617] send defer: 11
+2024-03-22 10:01:43,755 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 10:01:43,756 INFO    HandlerThread:109895 [handler.py:handle_request_defer():172] handle defer: 11
+2024-03-22 10:01:43,756 DEBUG   SenderThread:109895 [sender.py:send_request():409] send_request: defer
+2024-03-22 10:01:43,757 INFO    SenderThread:109895 [sender.py:send_request_defer():613] handle sender defer: 11
+2024-03-22 10:01:43,757 INFO    SenderThread:109895 [file_pusher.py:join():178] waiting for file pusher
+2024-03-22 10:01:43,757 INFO    SenderThread:109895 [sender.py:transition_state():617] send defer: 12
+2024-03-22 10:01:43,758 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 10:01:43,758 INFO    HandlerThread:109895 [handler.py:handle_request_defer():172] handle defer: 12
+2024-03-22 10:01:43,758 DEBUG   SenderThread:109895 [sender.py:send_request():409] send_request: defer
+2024-03-22 10:01:43,758 INFO    SenderThread:109895 [sender.py:send_request_defer():613] handle sender defer: 12
+2024-03-22 10:01:43,759 INFO    SenderThread:109895 [file_stream.py:finish():595] file stream finish called
+2024-03-22 10:01:44,103 INFO    SenderThread:109895 [file_stream.py:finish():599] file stream finish is done
+2024-03-22 10:01:44,104 INFO    SenderThread:109895 [sender.py:transition_state():617] send defer: 13
+2024-03-22 10:01:44,104 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 10:01:44,104 INFO    HandlerThread:109895 [handler.py:handle_request_defer():172] handle defer: 13
+2024-03-22 10:01:44,105 DEBUG   SenderThread:109895 [sender.py:send_request():409] send_request: defer
+2024-03-22 10:01:44,105 INFO    SenderThread:109895 [sender.py:send_request_defer():613] handle sender defer: 13
+2024-03-22 10:01:44,105 INFO    SenderThread:109895 [sender.py:transition_state():617] send defer: 14
+2024-03-22 10:01:44,105 DEBUG   SenderThread:109895 [sender.py:send():382] send: final
+2024-03-22 10:01:44,106 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: defer
+2024-03-22 10:01:44,106 DEBUG   SenderThread:109895 [sender.py:send():382] send: footer
+2024-03-22 10:01:44,106 INFO    HandlerThread:109895 [handler.py:handle_request_defer():172] handle defer: 14
+2024-03-22 10:01:44,106 DEBUG   SenderThread:109895 [sender.py:send_request():409] send_request: defer
+2024-03-22 10:01:44,106 INFO    SenderThread:109895 [sender.py:send_request_defer():613] handle sender defer: 14
+2024-03-22 10:01:44,107 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: poll_exit
+2024-03-22 10:01:44,107 DEBUG   SenderThread:109895 [sender.py:send_request():409] send_request: poll_exit
+2024-03-22 10:01:44,108 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: internal_messages
+2024-03-22 10:01:44,109 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: server_info
+2024-03-22 10:01:44,109 DEBUG   SenderThread:109895 [sender.py:send_request():409] send_request: server_info
+2024-03-22 10:01:44,152 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: get_summary
+2024-03-22 10:01:44,153 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: sampled_history
+2024-03-22 10:01:44,153 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: job_info
+2024-03-22 10:01:44,531 DEBUG   SenderThread:109895 [sender.py:send_request():409] send_request: job_info
+2024-03-22 10:01:44,532 DEBUG   HandlerThread:109895 [handler.py:handle_request():146] handle_request: shutdown
+2024-03-22 10:01:44,533 INFO    HandlerThread:109895 [handler.py:finish():869] shutting down handler
+2024-03-22 10:01:45,154 INFO    WriterThread:109895 [datastore.py:close():296] close: /mnt/d/WSL/Flight-Fare-Prediction/wandb/run-20240322_100047-Info/run-Info.wandb
+2024-03-22 10:01:45,532 INFO    SenderThread:109895 [sender.py:finish():1572] shutting down sender
+2024-03-22 10:01:45,533 INFO    SenderThread:109895 [file_pusher.py:finish():172] shutting down file pusher
+2024-03-22 10:01:45,533 INFO    SenderThread:109895 [file_pusher.py:join():178] waiting for file pusher

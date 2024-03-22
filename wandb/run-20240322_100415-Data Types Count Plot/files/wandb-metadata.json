@@ -1,0 +1,107 @@
+{
+    "os": "Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.11.5",
+    "heartbeatAt": "2024-03-22T04:34:25.299615",
+    "startedAt": "2024-03-22T04:34:15.860635",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/souvikghosh2000/Flight-Fare-Prediction.git",
+        "commit": "38d17acd4cac750cbe17989cfa6302cc08ab90b8"
+    },
+    "email": "\u201cghsouvik2000@gmail.com\u201d",
+    "root": "/mnt/d/WSL/Flight-Fare-Prediction",
+    "host": "LAPTOP-UGUDUH62",
+    "username": "souvik",
+    "executable": "/home/souvik/miniconda3/bin/python",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3293.732,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3293.732,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.732,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.732,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.732,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.732,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.732,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.732,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.732,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.732,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.732,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.732,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3293.732,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 16.261493682861328
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3050 Ti Laptop GPU",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 3.5644454956054688
+    }
+}

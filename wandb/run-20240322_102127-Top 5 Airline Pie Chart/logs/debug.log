@@ -1,0 +1,32 @@
+2024-03-22 10:21:27,329 INFO    MainThread:118827 [wandb_setup.py:_flush():76] Current SDK version is 0.16.3
+2024-03-22 10:21:27,330 INFO    MainThread:118827 [wandb_setup.py:_flush():76] Configure stats pid to 118827
+2024-03-22 10:21:27,330 INFO    MainThread:118827 [wandb_setup.py:_flush():76] Loading settings from /home/souvik/.config/wandb/settings
+2024-03-22 10:21:27,330 INFO    MainThread:118827 [wandb_setup.py:_flush():76] Loading settings from /mnt/d/WSL/Flight-Fare-Prediction/wandb/settings
+2024-03-22 10:21:27,330 INFO    MainThread:118827 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-03-22 10:21:27,330 INFO    MainThread:118827 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-03-22 10:21:27,331 INFO    MainThread:118827 [wandb_init.py:_log_setup():526] Logging user logs to /mnt/d/WSL/Flight-Fare-Prediction/wandb/run-20240322_102127-Top 5 Airline Pie Chart/logs/debug.log
+2024-03-22 10:21:27,331 INFO    MainThread:118827 [wandb_init.py:_log_setup():527] Logging internal logs to /mnt/d/WSL/Flight-Fare-Prediction/wandb/run-20240322_102127-Top 5 Airline Pie Chart/logs/debug-internal.log
+2024-03-22 10:21:27,331 INFO    MainThread:118827 [wandb_init.py:_jupyter_setup():472] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f3db94ad450>
+2024-03-22 10:21:27,332 INFO    MainThread:118827 [wandb_init.py:init():566] calling init triggers
+2024-03-22 10:21:27,332 INFO    MainThread:118827 [wandb_init.py:init():573] wandb.init called with sweep_config: {}
+config: {}
+2024-03-22 10:21:27,332 INFO    MainThread:118827 [wandb_init.py:init():616] starting backend
+2024-03-22 10:21:27,333 INFO    MainThread:118827 [wandb_init.py:init():620] setting up manager
+2024-03-22 10:21:27,336 INFO    MainThread:118827 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-03-22 10:21:27,338 INFO    MainThread:118827 [wandb_init.py:init():628] backend started and connected
+2024-03-22 10:21:27,348 INFO    MainThread:118827 [wandb_run.py:_label_probe_notebook():1295] probe notebook
+2024-03-22 10:21:27,349 INFO    MainThread:118827 [wandb_run.py:_label_probe_notebook():1305] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-03-22 10:21:27,349 INFO    MainThread:118827 [wandb_init.py:init():720] updated telemetry
+2024-03-22 10:21:27,466 INFO    MainThread:118827 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-03-22 10:22:57,488 ERROR   MainThread:118827 [wandb_init.py:init():779] encountered error: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+2024-03-22 10:22:58,111 ERROR   MainThread:118827 [wandb_init.py:init():1194] Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
+Traceback (most recent call last):
+  File "/home/souvik/miniconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 1176, in init
+    run = wi.init()
+          ^^^^^^^^^
+  File "/home/souvik/miniconda3/lib/python3.11/site-packages/wandb/sdk/wandb_init.py", line 785, in init
+    raise error
+wandb.errors.CommError: Run initialization has timed out after 90.0 sec. 
+Please refer to the documentation for additional information: https://docs.wandb.ai/guides/track/tracking-faq#initstarterror-error-communicating-with-wandb-process-
